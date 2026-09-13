@@ -1,0 +1,16 @@
+[book]
+authors = ["Akmal Chaudhri"]
+language = "en"
+src = "src"
+title = "Real-Time Supply Chain Routing with Neo4j, Snowflake Postgres and Confluent Kafka"
+description = "A real-time supply chain operations demo using Neo4j, Snowflake Postgres and Confluent Kafka"
+
+[output.html]
+hash-files = true
+git-repository-url = "https://github.com/realtime-supply-chain/realtime-supply-chain.github.io"
+edit-url-template = "https://github.com/realtime-supply-chain/realtime-supply-chain.github.io/edit/main/src/{path}"
+no-section-label = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
