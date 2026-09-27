@@ -31,7 +31,7 @@ The variable-length path queries and inline filtering that Cypher provides make 
 The relationship between these systems is as follows:
 
 - Aura is where the *structure* lives -- the supply chain graph that neither Snowflake Postgres nor Snowflake knows anything about.
-- Snowflake Postgres is where data is *written*, in real time, by the Kafka consumer.
+- Snowflake Postgres is where data are *written*, in real time, by the Kafka consumer.
 - Snowflake is where we *analyze* the history that Snowflake Postgres accumulates.
 
 Each system has a clear role and none of the roles overlap.
