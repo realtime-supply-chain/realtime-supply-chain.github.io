@@ -1,4 +1,4 @@
-# Real-Time Supply Chain Routing with Neo4j, Snowflake Postgres and Confluent Kafka
+# Welcome
 
 ## How to Cite This Book
 
