@@ -8,7 +8,7 @@ description = "A real-time supply chain operations demo using Neo4j, Snowflake P
 [output.html]
 hash-files = true
 git-repository-url = "https://github.com/realtime-supply-chain/realtime-supply-chain.github.io"
-edit-url-template = "https://github.com/realtime-supply-chain/realtime-supply-chain.github.io/edit/main/src/{path}"
+edit-url-template = "https://github.com/realtime-supply-chain/realtime-supply-chain.github.io/edit/main/{path}"
 no-section-label = true
 
 [output.html.search]
